@@ -18,7 +18,7 @@ export default {
   props: ['items'],
   computed: {
     groupedItems: function() {
-      return this.items
+      return this.items;
     }
   }
 }
